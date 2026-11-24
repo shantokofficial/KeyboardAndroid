@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/emojiKeyboardRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FE000000"
+    android:orientation="vertical"
+    android:paddingStart="2dp"
+    android:paddingTop="4dp"
+    android:paddingEnd="2dp"
+    android:paddingBottom="4dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/emojiGridContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Row 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal">
+
+                <Button style="@style/EmojiKeyStyle" android:text="😀" />
+                <Button style="@style/EmojiKeyStyle" android:text="😃" />
+                <Button style="@style/EmojiKeyStyle" android:text="😄" />
+                <Button style="@style/EmojiKeyStyle" android:text="😁" />
+                <Button style="@style/EmojiKeyStyle" android:text="😆" />
+                <Button style="@style/EmojiKeyStyle" android:text="😅" />
+                <Button style="@style/EmojiKeyStyle" android:text="😂" />
+                <Button style="@style/EmojiKeyStyle" android:text="🤣" />
+            </LinearLayout>
+
+            <!-- Row 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal">
+
+                <Button style="@style/EmojiKeyStyle" android:text="😊" />
+                <Button style="@style/EmojiKeyStyle" android:text="😇" />
+                <Button style="@style/EmojiKeyStyle" android:text="🙂" />
+                <Button style="@style/EmojiKeyStyle" android:text="🙃" />
+                <Button style="@style/EmojiKeyStyle" android:text="😉" />
+                <Button style="@style/EmojiKeyStyle" android:text="😌" />
+                <Button style="@style/EmojiKeyStyle" android:text="😍" />
+                <Button style="@style/EmojiKeyStyle" android:text="🥰" />
+            </LinearLayout>
+
+            <!-- Row 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal">
+
+                <Button style="@style/EmojiKeyStyle" android:text="😘" />
+                <Button style="@style/EmojiKeyStyle" android:text="😗" />
+                <Button style="@style/EmojiKeyStyle" android:text="😋" />
+                <Button style="@style/EmojiKeyStyle" android:text="😛" />
+                <Button style="@style/EmojiKeyStyle" android:text="😜" />
+                <Button style="@style/EmojiKeyStyle" android:text="🤪" />
+                <Button style="@style/EmojiKeyStyle" android:text="😎" />
+                <Button style="@style/EmojiKeyStyle" android:text="🤩" />
+            </LinearLayout>
+
+            <!-- Row 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal">
+
+                <Button style="@style/EmojiKeyStyle" android:text="🥳" />
+                <Button style="@style/EmojiKeyStyle" android:text="😏" />
+                <Button style="@style/EmojiKeyStyle" android:text="😒" />
+                <Button style="@style/EmojiKeyStyle" android:text="🙄" />
+                <Button style="@style/EmojiKeyStyle" android:text="😔" />
+                <Button style="@style/EmojiKeyStyle" android:text="😢" />
+                <Button style="@style/EmojiKeyStyle" android:text="😭" />
+                <Button style="@style/EmojiKeyStyle" android:text="😡" />
+            </LinearLayout>
+
+            <!-- Row 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal">
+
+                <Button style="@style/EmojiKeyStyle" android:text="❤️" />
+                <Button style="@style/EmojiKeyStyle" android:text="🧡" />
+                <Button style="@style/EmojiKeyStyle" android:text="💛" />
+                <Button style="@style/EmojiKeyStyle" android:text="💚" />
+                <Button style="@style/EmojiKeyStyle" android:text="💙" />
+                <Button style="@style/EmojiKeyStyle" android:text="💜" />
+                <Button style="@style/EmojiKeyStyle" android:text="🖤" />
+                <Button style="@style/EmojiKeyStyle" android:text="💔" />
+            </LinearLayout>
+
+            <!-- Row 6 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal">
+
+                <Button style="@style/EmojiKeyStyle" android:text="👍" />
+                <Button style="@style/EmojiKeyStyle" android:text="👎" />
+                <Button style="@style/EmojiKeyStyle" android:text="👌" />
+                <Button style="@style/EmojiKeyStyle" android:text="✌️" />
+                <Button style="@style/EmojiKeyStyle" android:text="🤞" />
+                <Button style="@style/EmojiKeyStyle" android:text="🤟" />
+                <Button style="@style/EmojiKeyStyle" android:text="👏" />
+                <Button style="@style/EmojiKeyStyle" android:text="🙏" />
+            </LinearLayout>
+
+            <!-- Row 7 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal">
+
+                <Button style="@style/EmojiKeyStyle" android:text="🎵" />
+                <Button style="@style/EmojiKeyStyle" android:text="🎶" />
+                <Button style="@style/EmojiKeyStyle" android:text="🎤" />
+                <Button style="@style/EmojiKeyStyle" android:text="🎧" />
+                <Button style="@style/EmojiKeyStyle" android:text="🌹" />
+                <Button style="@style/EmojiKeyStyle" android:text="🌸" />
+                <Button style="@style/EmojiKeyStyle" android:text="🔥" />
+                <Button style="@style/EmojiKeyStyle" android:text="✨" />
+            </LinearLayout>
+
+            <!-- Row 8 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:orientation="horizontal">
+
+                <Button style="@style/EmojiKeyStyle" android:text="🎉" />
+                <Button style="@style/EmojiKeyStyle" android:text="🎈" />
+                <Button style="@style/EmojiKeyStyle" android:text="☕" />
+                <Button style="@style/EmojiKeyStyle" android:text="🌙" />
+                <Button style="@style/EmojiKeyStyle" android:text="⭐" />
+                <Button style="@style/EmojiKeyStyle" android:text="💯" />
+                <Button style="@style/EmojiKeyStyle" android:text="✅" />
+                <Button style="@style/EmojiKeyStyle" android:text="⚡" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom control row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEmojiToBangla"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.8"
+            android:text="বাং" />
+
+        <Button
+            android:id="@+id/btnEmojiSpace"
+            style="@style/MlBanglaSpaceKey"
+            android:layout_weight="4.5"
+            android:text="Space" />
+
+        <Button
+            android:id="@+id/btnEmojiDelete"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.5"
+            android:text="⌫" />
+
+        <Button
+            android:id="@+id/btnEmojiReturn"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.8"
+            android:text="↵" />
+    </LinearLayout>
+
+</LinearLayout>
