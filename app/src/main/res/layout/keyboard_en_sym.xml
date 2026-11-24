@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/enSymRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FE000000"
+    android:orientation="vertical"
+    android:paddingStart="2dp"
+    android:paddingTop="4dp"
+    android:paddingEnd="2dp"
+    android:paddingBottom="4dp">
+
+    <!-- Row 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <Button style="@style/MlBanglaKey" android:text="q" />
+        <Button style="@style/MlBanglaKey" android:text="w" />
+        <Button style="@style/MlBanglaKey" android:text="e" />
+        <Button style="@style/MlBanglaKey" android:text="r" />
+        <Button style="@style/MlBanglaKey" android:text="t" />
+        <Button style="@style/MlBanglaKey" android:text="y" />
+        <Button style="@style/MlBanglaKey" android:text="u" />
+        <Button style="@style/MlBanglaKey" android:text="i" />
+        <Button style="@style/MlBanglaKey" android:text="o" />
+        <Button style="@style/MlBanglaKey" android:text="p" />
+    </LinearLayout>
+
+    <!-- Row 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+
+        <Button style="@style/MlBanglaKey" android:text="a" />
+        <Button style="@style/MlBanglaKey" android:text="s" />
+        <Button style="@style/MlBanglaKey" android:text="d" />
+        <Button style="@style/MlBanglaKey" android:text="f" />
+        <Button style="@style/MlBanglaKey" android:text="g" />
+        <Button style="@style/MlBanglaKey" android:text="h" />
+        <Button style="@style/MlBanglaKey" android:text="j" />
+        <Button style="@style/MlBanglaKey" android:text="k" />
+        <Button style="@style/MlBanglaKey" android:text="l" />
+    </LinearLayout>
+
+    <!-- Row 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEnShift"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.4"
+            android:text="⇧" />
+
+        <Button style="@style/MlBanglaKey" android:text="z" />
+        <Button style="@style/MlBanglaKey" android:text="x" />
+        <Button style="@style/MlBanglaKey" android:text="c" />
+        <Button style="@style/MlBanglaKey" android:text="v" />
+        <Button style="@style/MlBanglaKey" android:text="b" />
+        <Button style="@style/MlBanglaKey" android:text="n" />
+        <Button style="@style/MlBanglaKey" android:text="m" />
+
+        <Button
+            android:id="@+id/btnEnDelete"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.4"
+            android:text="⌫" />
+    </LinearLayout>
+
+    <!-- Row 4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEnToBangla"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.6"
+            android:text="বাং" />
+
+        <Button
+            android:id="@+id/btnEnSpace"
+            style="@style/MlBanglaSpaceKey"
+            android:layout_weight="4.6"
+            android:text="Space" />
+
+        <Button
+            android:id="@+id/btnEnDot"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.0"
+            android:text="." />
+
+        <Button
+            android:id="@+id/btnEnReturn"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.8"
+            android:text="↵" />
+    </LinearLayout>
+
+</LinearLayout>
