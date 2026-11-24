@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/multilingBanglaRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FE000000"
+    android:orientation="vertical"
+    android:paddingStart="2dp"
+    android:paddingTop="4dp"
+    android:paddingEnd="2dp"
+    android:paddingBottom="4dp">
+
+    <!-- Row 1: ৌ ৈ া ী ূ ব হ গ দ জ ড -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <Button style="@style/MlBanglaKey" android:text="ৌ" />
+        <Button style="@style/MlBanglaKey" android:text="ৈ" />
+        <Button style="@style/MlBanglaKey" android:text="া" />
+        <Button style="@style/MlBanglaKey" android:text="ী" />
+        <Button style="@style/MlBanglaKey" android:text="ূ" />
+        <Button style="@style/MlBanglaKey" android:text="ব" />
+        <Button style="@style/MlBanglaKey" android:text="হ" />
+        <Button style="@style/MlBanglaKey" android:text="গ" />
+        <Button style="@style/MlBanglaKey" android:text="দ" />
+        <Button style="@style/MlBanglaKey" android:text="জ" />
+        <Button style="@style/MlBanglaKey" android:text="ড" />
+    </LinearLayout>
+
+    <!-- Row 2: ো ে ্ ি ু প ৰ ক ত চ ট -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <Button style="@style/MlBanglaKey" android:text="ো" />
+        <Button style="@style/MlBanglaKey" android:text="ে" />
+        <Button style="@style/MlBanglaKey" android:text="্" />
+        <Button style="@style/MlBanglaKey" android:text="ি" />
+        <Button style="@style/MlBanglaKey" android:text="ু" />
+        <Button style="@style/MlBanglaKey" android:text="প" />
+        <Button style="@style/MlBanglaKey" android:text="ৰ" />
+        <Button style="@style/MlBanglaKey" android:text="ক" />
+        <Button style="@style/MlBanglaKey" android:text="ত" />
+        <Button style="@style/MlBanglaKey" android:text="চ" />
+        <Button style="@style/MlBanglaKey" android:text="ট" />
+    </LinearLayout>
+
+    <!-- Row 3: Shift ং ম ন ৱ ল স য ় ৃ Del -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMlShift"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.2"
+            android:text="⇧" />
+
+        <Button style="@style/MlBanglaKey" android:text="ং" />
+        <Button style="@style/MlBanglaKey" android:text="ম" />
+        <Button style="@style/MlBanglaKey" android:text="ন" />
+        <Button style="@style/MlBanglaKey" android:text="ৱ" />
+        <Button style="@style/MlBanglaKey" android:text="ল" />
+        <Button style="@style/MlBanglaKey" android:text="স" />
+        <Button style="@style/MlBanglaKey" android:text="য" />
+        <Button style="@style/MlBanglaKey" android:text="়" />
+        <Button style="@style/MlBanglaKey" android:text="ৃ" />
+
+        <Button
+            android:id="@+id/btnMlDelete"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.2"
+            android:text="⌫" />
+    </LinearLayout>
+
+    <!-- Row 4: Emoji | Symbol | Lang | Space | . | Return -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMlEmoji"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.2"
+            android:text="😀" />
+
+        <Button
+            android:id="@+id/btnMlSymbol"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.4"
+            android:text="?123" />
+
+        <Button
+            android:id="@+id/btnMlLangSwitch"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.2"
+            android:text="EN" />
+
+        <Button
+            android:id="@+id/btnMlSpace"
+            style="@style/MlBanglaSpaceKey"
+            android:layout_weight="3.8"
+            android:text="Space" />
+
+        <Button
+            android:id="@+id/btnMlDot"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.0"
+            android:text="." />
+
+        <Button
+            android:id="@+id/btnMlReturn"
+            style="@style/MlBanglaActionKey"
+            android:layout_weight="1.8"
+            android:text="↵" />
+    </LinearLayout>
+
+</LinearLayout>
