@@ -96,7 +96,7 @@
             android:id="@+id/btnMlSymbol"
             style="@style/MlBanglaActionKey"
             android:layout_weight="1.4"
-            android:text="&#63;123" />
+            android:text="\\?123" />
 
         <Button
             android:id="@+id/btnMlLangSwitch"
